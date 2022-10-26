@@ -16,9 +16,7 @@ class CreateRoles extends Migration
      */
     public function up()
     {
-        $admin = Role::create(['name' => 'super admin']);
-        $user = User::find(1);
-        $user->assignRole($admin);
+        //
     }
 
     /**
